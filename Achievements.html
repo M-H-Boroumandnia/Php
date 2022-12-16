@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Achievements</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    padding:0; margin:0;
+    box-sizing: border-box;
+    color:#ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #04AA6D;
+}
+
+.container{
+    display: flex;
+    padding: 3rem;
+}
+
+.container .section{
+    flex-basis: 50%;
+    padding: 0px 10%;
+}
+
+.section h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.section .content{
+    margin:20px 0 0 0;
+    position: relative;
+}
+
+.section .content::before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+}
+
+.section .content::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background-color: #555;
+    top: -10px;
+}
+
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a{
+    padding: 0 2px; 
+}
+
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: 0.4s;
+    border:1px solid #656565;
+}
+
+
+.left .content .social a span:hover{
+    background: #555;
+}
+
+.center .content .fas{
+    font-size: 1.1rem;
+    background: transparent;
+    height: 45px;
+    width: 45px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+    border:1px solid #656565;
+}
+
+.center .content .fas:hover{
+    background: #555;
+    border:1px solid #555;
+}
+
+.center .content .text{
+    font-size: 1.0.6rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.center .content .phone{
+    margin: 15px 0;
+}
+
+.right form .text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #656565;
+}
+
+.right form input{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: transparent;
+    border: 1px solid #656565;
+}
+
+.right form input{
+    height: 35px;
+}
+
+.right form .btn{
+    margin-top: 10px;
+}
+
+.right form .btn button{
+    height: 40px;
+    width: 100%;
+    border:none;
+    outline: none;
+    background: #555;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.right form .btn button:hover{
+    background: #000;
+}
+
+.footer-bottom center{
+    padding: 4px;
+    font-size: 0.9375rem;
+    background: #555;
+}
+
+.footer-bottom center span{
+    color: #656565;
+}
+
+.footer-bottom center a{
+    text-decoration: none;
+}
+
+.footer-bottom center a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:700px){
+    footer{
+        position: relative;
+        bottom: 0px;
+    }
+
+    .left .content{
+        padding-right:0px;
+        padding-bottom: 30px;
+    }
+
+    .container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding:0.5rem;
+    }
+
+    .container .section{
+        margin:5px 0;
+    }
+}
+* {box-sizing: border-box}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%;
+}
+
+.topnav a:hover {
+  background-color: #000;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+body {
+    padding-bottom: 300px; 
+    background-color:rgba(204, 204, 204, 0.868)
+}
+.containe {
+        display: flex;
+        align-items: left;
+        justify-content: left
+      }
+      .text {
+        font-size: 20px;
+        padding-left: 20px;
+      }
+ul{
+  margin: 20px 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="Intruduction.html">Intruduction</a>
+  <a href="Achievements.html">Achievements</a>
+  <a href="Abilities.html">Abilities</a>
+  <a href="Contact.html">Contact With Us</a>
+</div>
+<p>
+  <br>
+</p>
+
+<div class="containe">
+  <div class="text">
+    <ul>
+      <li>Designing and making 3D printer with on of my classmates</li><br>
+      <li>champion in Ardunoi robocup in Tehran Univercity</li><br>
+      <li>making an portable GPS with Ardunoi as a Univercity project with on my teachers</li><br>
+      <li>champion in Tehran`s volyballs school game</li><br>
+      <li>champion in school swimming</li><br>
+      <li>third grade in EV3 national robocup 2017</li><br>
+      <li>fifth grade in EV3 national robocup 2018</li><br>
+      <li>best logo designer in national logo copetion</li><br>
+    </ul>  
+    
+   
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+      <div class="left section">
+          <h2>About This Blog</h2>
+          <div class="content">
+              <p>This is an educational website designed by a computer engineering student of Sharif University in 3 pages, and its purpose is to familiarize with the environment of web.</p>
+          </div>
+      </div>
+
+      <div class="center section">
+          <h2>Contact Me</h2>
+          <div class="content">
+              <div class="place">
+                  <span class="fas fa-map-marker-alt"></span>
+                  <span class="text">Sharif Univercity, Azadi Street, Tehran, Iran</span>
+              </div>
+              <div class="phone">
+                  <span class="fas fa-phone-alt"></span>
+                  <span class="text"> 021-66161 / 021-66164051</span>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="footer-bottom">
+      <center>
+          <div><span> <a href="https://www.sharif.edu/">Made By Mohammad Hossein Boroumandnia</a></span></div>
+      </center>
+  </div>
+</footer>
+</body>
+</html>
